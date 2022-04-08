@@ -1,0 +1,83 @@
+/* Place your CSS styles in this file */
+  @import url('https://fonts.googleapis.com/css2?family=Fauna+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+h1 {
+      color: #00133b;
+      font-size: 112px;
+      font-family: 'Fauna One', serif;
+    text-align: center;
+    background: rgba(240, 248, 255, 0.431);
+ 
+}
+body {
+    background: linear-gradient(-45deg, #52eea0, #3ce7d0, #23a6d5, #235bd5);
+    background-size: 8000% 8000%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    text-align: center;
+    color: #00133b;
+}
+nav {
+    text-align: center;
+}
+button {
+  font-family: 'Fauna One', serif;
+  background-color: rgba(240, 248, 255, 0.431);
+  margin: 3px;
+  box-shadow: none;
+   outline: none;
+   border: none;
+   border-radius: 5px;
+   display: block;
+   width: 100%;
+}
+button:hover {
+      background-color: rgba(220, 248, 255, 0.431);
+ ; 
+}
+a:link {
+  color: aliceblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(119, 161, 197);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(158, 209, 253);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.stoopid {
+ color: rgb(30, 59, 83);  
+ margin:0; 
+ text-align: center;
+  font-family: 'Fauna One', serif;
+}
+h3 {
+      color: #00133b;
+      font-size: 35px;
+      font-family: 'Fauna One', serif;
+    text-align: center;
+    background: rgba(240, 248, 255, 0.452);
+}
